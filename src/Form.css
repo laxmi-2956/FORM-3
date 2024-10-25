@@ -1,0 +1,27 @@
+.box
+{
+    height: 600px;
+    width: 30%;
+    background: rgba(213,133,133,0.25);
+    box-shadow: 20px 20px 40px -6px rgba(230, 222, 222, 0.2);
+    
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    position: absolute;
+    left: 37%;
+    bottom: 8%;
+    z-index: 1;     
+}
+form 
+{
+   position:absolute;
+   left: 40%;
+   top:13% ;
+   z-index: 1; 
+}
+body 
+{
+    /* background: linear-gradient(to right, rgb(232, 74, 232), rgb(39, 169, 220)); */
+  background-color: rgb(131, 45, 131);
+}
